@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #4d4214;
+        }
+        .header {
+            background-color: #c9cf70;
+            padding: 20px;
+            text-align: center;
+            padding-bottom: 2px;
+        }
+        .footer {
+            background-color: #968888;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+
+        .custom-table {
+    border-collapse: separate;
+}
+
+.custom-table th, .custom-table td {
+    background-color: #cec792; 
+    color: #000; 
+    border: 1px solid #612323;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.custom-table tr:nth-child(even) th, .custom-table tr:nth-child(even) td {
+    background-color: #bdb8a0;
+}
+
+.custom-table tr:nth-child(odd) th, .custom-table tr:nth-child(odd) td {
+    background-color: #c9be6e; 
+}
+
+.chart-header {
+    background-color: #110f02; 
+    color: #e6fcbf; 
+    padding: 10px;
+    border-bottom: 1px solid #ddd; 
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1 style="color: black; font-weight: bolder;"> Olympic Games </h1>
+       
+    </div>
+
+    <!-- Main Content -->
+    <div class="container p-3 pt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 style="color: #bdb8a0;">Olympic Games Paris 2024</h2>
+                <p style="color: #968888;">The 2024 Summer Olympics, officially the Games of the XXXIII Olympiad and branded as Paris 2024, is an international multi-sport event that are occuring from 24 July to 11 August 2024 in France, with the opening ceremony having taken place on 26 July.</p>
+                <br>
+                <span style=" background-color: #c5b34f; 
+                padding: 8px 15px; 
+                color: #270909; 
+                border: 1px solid #f5efd1;
+                border-radius: 5px;
+                 font-weight: bold;
+                 " >Let's Celebrate  ! </span>
+                <hr>
+                <p style="color: #ddd;">Look at the recent Standing chart :</p>
+            </div>
+
+
+
+
+
+            <div class="col-md-6">
+                <h2 class="chart-header">STANDING</h2>
+                <table class="table table-bordered table-hover table-striped custom-table">
+                    <tr> <th>#</th>
+                        <th>Countries</th>
+                        <th>Medals</th>
+                    </tr>
+                    <tr><th>1</th>
+                        <td>United States Of America</td>
+                        <td>126</td>
+                    </tr>
+                    <tr><th>2</th>
+                        <td>China</td>
+                        <td>93</td>
+                    </tr>
+                    <tr><th>3</th>
+                        <td>Japan</td>
+                        <td>45</td>
+                    </tr><tr><th>4</th>
+                        <td>Australia</td>
+                        <td>53</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 Simple Webpage. All rights reserved.</p>
+    </div>
+</body>
+</html>
